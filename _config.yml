@@ -1,7 +1,7 @@
 title: "Program Studi Broadband Multimedia"
 description: Website pendukung Akreditasi LAM Teknik.
-baseurl: ""
-url: ""
+baseurl: "/aksi-psbm2026"
+url: "https://awagyanaKSLF.github.io"
 
 plugins:
   - jekyll-sitemap
