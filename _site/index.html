@@ -1,0 +1,112 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="id">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<body>
+  <!-- _includes/navbar.html -->
+<nav class="navbar">
+  <div class="container">
+    <ul>
+      <li><a href="/">Beranda</a></li>
+      <li><a href="/standar-1/">Standar 1</a></li>
+      <!-- tambahkan lainnya -->
+    </ul>
+  </div>
+</nav>
+  <!-- ← HARUS ADA -->
+
+  <main class="container">
+    <h1 id="selamat-datang-asesor-lam-teknik">Selamat Datang, Asesor LAM Teknik!</h1>
+
+<p>Website ini menyajikan dokumen pendukung akreditasi Program Studi Broadband Mulimedia berdasarkan Standar LAM Teknik.</p>
+
+<p>Gunakan menu di atas untuk mengakses setiap standar secara langsung.</p>
+
+<blockquote>
+  <p>💡 Untuk melihat ringkasan progres keseluruhan, kunjungi halaman <strong><a href="/progress/">📊 Progress</a></strong>.</p>
+</blockquote>
+
+  </main>
+
+  <!-- _includes/footer.html -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 . Untuk keperluan akreditasi LAM Teknik.</p>
+  </div>
+</footer>
+
+<!-- Load JS di akhir body -->
+<script src="/assets/js/main.js"></script>
+``>
+
+> Pastikan tag `<script>` ada **sekali saja**, biasanya di `default.html` atau `footer.html`.
+
+---
+
+## 4. (Opsional) Tambahkan Animasi ke Halaman Standar
+
+Di `standar/index.md`, bungkus kartu dengan class animasi:
+
+```liquid
+<div class="standar-grid">
+
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 1</h3>
+    <p></p>
+    <a href="/standar/1/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 2</h3>
+    <p></p>
+    <a href="/standar/2/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 3</h3>
+    <p></p>
+    <a href="/standar/3/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 4</h3>
+    <p></p>
+    <a href="/standar/4/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 5</h3>
+    <p></p>
+    <a href="/standar/5/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 6</h3>
+    <p></p>
+    <a href="/standar/6/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 7</h3>
+    <p></p>
+    <a href="/standar/7/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 8</h3>
+    <p></p>
+    <a href="/standar/8/">Lihat Detail →</a>
+  </div>
+
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar 9</h3>
+    <p></p>
+    <a href="/standar/9/">Lihat Detail →</a>
+  </div>
+
+</div>
+
+</body>
+</html>

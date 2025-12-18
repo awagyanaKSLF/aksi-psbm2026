@@ -1,0 +1,15 @@
+# _data/progress.yml
+# Nilai: 0 = Belum Dimulai, 1 = Dalam Proses, 2 = Selesai
+standar:
+  1: 2
+  2: 1
+  3: 2
+  4: 2
+  5: 2
+  6: 1
+  7: 2
+  8: 0
+  9: 1
+
+# Opsional: catatan tim
+notes: "Update terakhir: 18 Desember 2025. Standar 8 menunggu publikasi Q1 2026."

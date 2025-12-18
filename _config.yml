@@ -1,0 +1,19 @@
+title: "Program Studi Broadband Multimedia"
+description: Website pendukung Akreditasi LAM Teknik.
+baseurl: ""
+url: ""
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  standar:
+    output: true
+    permalink: /standar/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

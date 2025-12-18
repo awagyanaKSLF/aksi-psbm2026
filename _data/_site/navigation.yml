@@ -1,0 +1,10 @@
+- title: Beranda
+  url: /
+- title: Standar 1
+  url: /standar-1/
+- title: Standar 2
+  url: /standar-2/
+- title: 📊 Progress
+  url: /progress/{% for item in site.data.navigation %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+{% endfor %}

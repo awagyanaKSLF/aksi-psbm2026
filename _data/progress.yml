@@ -1,0 +1,14 @@
+# _data/progress.yml
+# 0 = Belum, 1 = Proses, 2 = Selesai
+standar:
+  1: 2  # VMTS
+  2: 1  # Tata Pamong
+  3: 0  # Mahasiswa
+  4: 1  # SDM
+  5: 2  # Kurikulum
+  6: 0  # Sarana
+  7: 2  # SPMI
+  8: 0  # Penelitian
+  9: 0  # Lulusan
+
+last_updated: "18 Desember 2025"

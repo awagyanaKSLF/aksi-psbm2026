@@ -1,0 +1,28 @@
+.navbar {
+  background: white;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+}
+.navbar a {
+  display: block;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+.navbar a:hover,
+.navbar a.active {
+  color: #ff6f00;
+  background: rgba(13, 71, 161, 0.03);
+}

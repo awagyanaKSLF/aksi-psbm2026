@@ -1,0 +1,32 @@
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+<!-- _includes/footer.html -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Untuk keperluan akreditasi LAM Teknik.</p>
+  </div>
+</footer>
+
+<!-- Load JS di akhir body -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+``>
+
+> Pastikan tag `<script>` ada **sekali saja**, biasanya di `default.html` atau `footer.html`.
+
+---
+
+## 4. (Opsional) Tambahkan Animasi ke Halaman Standar
+
+Di `standar/index.md`, bungkus kartu dengan class animasi:
+
+```liquid
+<div class="standar-grid">
+{% assign standar_list = "1,2,3,4,5,6,7,8,9" | split: "," %}
+{% for i in standar_list %}
+  <div class="standar-card animate-on-scroll">
+    <h3>Standar {{ i }}</h3>
+    <p>{{ site.data.standar-deskripsi[i] }}</p>
+    <a href="/standar/{{ i }}/">Lihat Detail →</a>
+  </div>
+{% endfor %}
+</div>
